@@ -24,7 +24,7 @@ namespace Invoice_manager_TITD
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.label1.Text = "ANDRE ARRUDA TESTE";
+            
         }
     }
 }
