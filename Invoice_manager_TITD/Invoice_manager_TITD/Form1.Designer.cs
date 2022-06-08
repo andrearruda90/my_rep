@@ -44,11 +44,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(198, 41);
+            this.label1.Location = new System.Drawing.Point(211, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Andre Arruda";
+            this.label1.Text = "Editando";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
