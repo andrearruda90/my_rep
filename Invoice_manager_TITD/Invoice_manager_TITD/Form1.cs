@@ -36,5 +36,12 @@ namespace Invoice_manager_TITD
         {
             Application.Exit();
         }
+
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AboutBox1 frm_abt = new AboutBox1();
+
+            frm_abt.ShowDialog();
+        }
     }
 }
