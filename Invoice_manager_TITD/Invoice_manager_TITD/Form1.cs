@@ -26,5 +26,10 @@ namespace Invoice_manager_TITD
         {
             
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
