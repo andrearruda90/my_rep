@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Invoice_manager_TITD
 {
-    public partial class Form1 : Form
+    public partial class main_screen : Form
     {
-        public Form1()
+        public main_screen()
         {
             InitializeComponent();
         }
