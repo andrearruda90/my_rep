@@ -46,6 +46,8 @@
             this.portugueseBRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.controlPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quickSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -77,7 +79,7 @@
             this.insertToolStripMenuItem1,
             this.changeToolStripMenuItem});
             this.insertToolStripMenuItem.Name = "insertToolStripMenuItem";
-            this.insertToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.insertToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.insertToolStripMenuItem.Text = "&Register";
             // 
             // insertToolStripMenuItem1
@@ -86,19 +88,19 @@
             this.newSupplierToolStripMenuItem,
             this.newLineToolStripMenuItem});
             this.insertToolStripMenuItem1.Name = "insertToolStripMenuItem1";
-            this.insertToolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
+            this.insertToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.insertToolStripMenuItem1.Text = "&Insert";
             // 
             // newSupplierToolStripMenuItem
             // 
             this.newSupplierToolStripMenuItem.Name = "newSupplierToolStripMenuItem";
-            this.newSupplierToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.newSupplierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newSupplierToolStripMenuItem.Text = "New &Supplier";
             // 
             // newLineToolStripMenuItem
             // 
             this.newLineToolStripMenuItem.Name = "newLineToolStripMenuItem";
-            this.newLineToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.newLineToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newLineToolStripMenuItem.Text = "New &Line";
             // 
             // changeToolStripMenuItem
@@ -107,31 +109,34 @@
             this.supplierToolStripMenuItem,
             this.linesToolStripMenuItem});
             this.changeToolStripMenuItem.Name = "changeToolStripMenuItem";
-            this.changeToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.changeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.changeToolStripMenuItem.Text = "&Change";
             // 
             // supplierToolStripMenuItem
             // 
             this.supplierToolStripMenuItem.Name = "supplierToolStripMenuItem";
-            this.supplierToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.supplierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.supplierToolStripMenuItem.Text = "&Supplier";
             // 
             // linesToolStripMenuItem
             // 
             this.linesToolStripMenuItem.Name = "linesToolStripMenuItem";
-            this.linesToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.linesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.linesToolStripMenuItem.Text = "&Line";
             // 
             // searchToolStripMenuItem
             // 
+            this.searchToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.controlPanelToolStripMenuItem,
+            this.quickSearchToolStripMenuItem});
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
-            this.searchToolStripMenuItem.Text = "&Search";
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.searchToolStripMenuItem.Text = "&Panel";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -156,13 +161,13 @@
             // englishToolStripMenuItem
             // 
             this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            this.englishToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.englishToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.englishToolStripMenuItem.Text = "&English";
             // 
             // portugueseBRToolStripMenuItem
             // 
             this.portugueseBRToolStripMenuItem.Name = "portugueseBRToolStripMenuItem";
-            this.portugueseBRToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.portugueseBRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.portugueseBRToolStripMenuItem.Text = "&Portuguese (BR)";
             // 
             // aboutToolStripMenuItem1
@@ -183,6 +188,18 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // controlPanelToolStripMenuItem
+            // 
+            this.controlPanelToolStripMenuItem.Name = "controlPanelToolStripMenuItem";
+            this.controlPanelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.controlPanelToolStripMenuItem.Text = "&Control Panel";
+            // 
+            // quickSearchToolStripMenuItem
+            // 
+            this.quickSearchToolStripMenuItem.Name = "quickSearchToolStripMenuItem";
+            this.quickSearchToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quickSearchToolStripMenuItem.Text = "&Quick Search";
             // 
             // Form1
             // 
@@ -222,6 +239,8 @@
         private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem portugueseBRToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem controlPanelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quickSearchToolStripMenuItem;
     }
 }
 
