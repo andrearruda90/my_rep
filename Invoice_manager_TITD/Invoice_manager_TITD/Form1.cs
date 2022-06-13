@@ -43,5 +43,13 @@ namespace Invoice_manager_TITD
 
             frm_abt.ShowDialog();
         }
+
+        private void controlPanelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            control_panel ctr_pnl = new control_panel();
+
+            ctr_pnl.ShowDialog();
+
+        }
     }
 }

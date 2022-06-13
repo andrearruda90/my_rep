@@ -35,16 +35,16 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(25, 180);
+            this.dataGridView1.Location = new System.Drawing.Point(27, 155);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1042, 325);
+            this.dataGridView1.Size = new System.Drawing.Size(981, 325);
             this.dataGridView1.TabIndex = 0;
             // 
             // control_panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1092, 526);
+            this.ClientSize = new System.Drawing.Size(1035, 492);
             this.Controls.Add(this.dataGridView1);
             this.Name = "control_panel";
             this.Text = "Control Panel";
